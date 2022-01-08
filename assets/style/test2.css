@@ -1,0 +1,49 @@
+.menu{
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li{
+  list-style: none;
+  margin-left: 62xp;
+  margin-top: 27xp;
+  font-size: 14px;
+  padding-left:1em;
+}
+ul li a{
+  text-decoration: none;
+  color: ghostwhite;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+  size: 20px;
+}
+ul li a:hover{
+  color:rgb(204, 103, 162);
+}
+.tbl tbody td a{
+  text-decoration: none;
+  color: ghostwhite;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+  
+.btn{
+  width: 100px;
+  height: 40px;
+  background: rgb(204, 103, 162);
+  border: 2px solid rgb(204, 103, 162);
+  margin-top: 13px;
+  color: ghostwhite;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.btn :focus{
+  outline: none;
+}
